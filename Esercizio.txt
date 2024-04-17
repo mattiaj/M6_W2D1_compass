@@ -1,0 +1,10 @@
+1. { isActive: true }                    = 51 risultati;
+2. {age: {$gt: 26}}                      = 54 risultati;
+3. {age: {$gt: 26, $lte: 30}}            = 19 risultati;
+4. {eyeColor:{$in:["brown", "blue"]}}    = 66 risultati;
+5. {eyeColor: {$ne: "green"}}            = 66 risultati;
+6. {eyeColor: {$nin: ["green", "blue"]}} = 35 risultati;
+7. {company:{$eq: "FITCORE"}};
+    Project: {email:1}                   = 1 risultato (_id: "5f032c754b7a28a165346f85"
+                                                        email: "victoria.solis@fitcore.biz");
+                                                        
